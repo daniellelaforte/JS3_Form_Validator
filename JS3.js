@@ -21,7 +21,7 @@ var checkForZip = function(number) {
 
 var number = prompt('Enter your phone number with dashes.');
 
-alert(number.charAt(3) === '-' && number.charAt(7) === '-' && checkForPhoneNumber(number) && number.length == 10);
+alert(number.charAt(3) === '-' && number.charAt(7) === '-' && checkForPhoneNumber(number) && number.length == 12);
 
 var number = prompt('Enter your birthdate (xx/xx/xx).');
 
