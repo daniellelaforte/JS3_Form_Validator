@@ -1,6 +1,11 @@
+var isNumber = function(n) {
+ return !isNaN(parseFloat(n)) && isFinite(n);
+};
+
+
 var number = prompt('Enter your phone number with dashes.');
 
-alert(number.charAt(3) === '-' && number.charAt(7) === '-');
+alert(number.charAt(3) === '-' && number.charAt(7) === '-' && isNumber(number.charAt(0)));
 
 var number = prompt('Enter your birthdate (xx/xx/xx).');
 
